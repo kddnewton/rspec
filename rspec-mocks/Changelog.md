@@ -1,6 +1,8 @@
 ### Development
 [Full Changelog](https://github.com/rspec/rspec/compare/rspec-mocks-v3.13.7...main)
 
+# 4.0.0.beta1 / 2026-02-18
+
 Breaking Changes:
 
 * Ruby < 3.0 is no longer supported. (Phil Pirozhkov, Jon Rowe, rspec/rspec-mocks#1349, rspec/rspec#258)
