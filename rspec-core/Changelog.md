@@ -43,7 +43,7 @@ Breaking Changes:
 Enhancements:
 
 * Add config option (`RSpec::Core::Configuration#force_line_number_for_spec_rerun`) to
-  allways print a line number rather than an example id when the line number is ambiguous.
+  always print a line number rather than an example id when the line number is ambiguous.
   (Baden Ashford, rspec/rspec-core#3085)
 * Expand `RSpec::Core::Configuration#warnings=` to take `:all`, `:deprecations_only` and `:none`
   options. (Jean Boussier, rspec/rspec#161)
