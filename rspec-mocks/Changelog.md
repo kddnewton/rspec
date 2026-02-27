@@ -1,6 +1,10 @@
 ### Development
 [Full Changelog](https://github.com/rspec/rspec/compare/rspec-mocks-v3.13.7...main)
 
+Bug Fixes:
+
+* Improve thread safety of mocks invocation recording. (Chad Wilson, #286)
+
 # 4.0.0.beta1 / 2026-02-18
 
 Breaking Changes:
