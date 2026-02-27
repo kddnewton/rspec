@@ -357,6 +357,10 @@ Style/Proc:
 Style/QuotedSymbols:
   Enabled: false
 
+# We prefer the readability of other styles
+Style/ReduceToHash:
+  Enabled: false
+
 # Revisit later in v4.0.0
 Style/RedundantBegin:
   Enabled: false
