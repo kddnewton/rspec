@@ -319,6 +319,11 @@ Style/NestedParenthesizedCalls:
 Style/NumericPredicate:
   Enabled: false
 
+# require has a cost, albiet a minor one and we've historically
+# combined classes into files according to need due to this.
+Style/OneClassPerFile:
+  Enabled: false
+
 Style/ParallelAssignment:
   Enabled: false
 
