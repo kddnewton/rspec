@@ -250,6 +250,12 @@ Style/ExpandPathArguments:
 Style/FetchEnvVar:
   Enabled: false
 
+# Generally when we reach for File.open it's
+# because we want an open file handle.
+Style/FileOpen:
+  Exclude:
+    - '**/spec/**/*.rb'
+
 # Revisit in RSpec 4
 Style/FileRead:
   Enabled: false
